@@ -1,0 +1,23 @@
+pipeline {
+    agent {label 'slave'}
+
+
+    stages {
+        stage('Build') {
+            steps {
+                    sh 'mvn package'
+
+            }
+        }
+         stage('Run') {
+            steps {
+                 sh 'java -jar **/target/xmltohtml-0.0.1-SNAPSHOT.jar'
+            }
+
+
+
+
+
+}
+}
+}
