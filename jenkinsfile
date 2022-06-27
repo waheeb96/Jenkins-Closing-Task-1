@@ -1,12 +1,9 @@
 pipeline {
-    agent {label 'slave'}
-
-
+    agent any
     stages {
         stage('Build') {
             steps {
                     sh 'mvn package'
-
             }
         }
          stage('Run') {
