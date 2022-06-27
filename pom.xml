@@ -14,7 +14,7 @@
     <name>xmltohtml</name>
     <description>fursa - xml to html</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>10</java.version>
     </properties>
     <dependencies>
         <dependency>
