@@ -11,13 +11,8 @@ pipeline {
         }
          stage('Run') {
             steps {
-                 sh 'java -jar **/target/xmltohtml-0.0.1-SNAPSHOT.jar'
+                 sh 'java -jar target/xmltohtml-0.0.1-SNAPSHOT.jar'
             }
-
-
-
-
-
 }
 }
 }
