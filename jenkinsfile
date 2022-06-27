@@ -19,7 +19,7 @@ pipeline {
             post {
 
                 success {
-                        slackSend channel: '#fursa-5', color: '#008921', message: 'Built successful!', tokenCredentialId: 'r2p8zmKCmvllBDww98M4B1sX'}
+                        slackSend channel: '#fursa-5', color: '#008921', message: 'Built successful!', tokenCredentialId: 'XoRkoWhpWGScNjEZdubAEBah'}
 
             }
 }
