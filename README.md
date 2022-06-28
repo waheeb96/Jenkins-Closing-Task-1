@@ -3,8 +3,7 @@
 ## features  
 1. Reads the “Breaking News” from YNet new service: http://www.ynet.co.il/Integration/StoryRss2.xml  
 2. parses and Presents the Breaking
-News XML in an HTML Table Format (Don’t forget to make right to left as in
-Hebrew)
+News XML in an HTML with Java Spring Boot Framework, And BOOTSTRAP front-end framework
 
 
 ## Run Locally
@@ -36,7 +35,10 @@ Start the server
 access : http://localhost:8080/ 
 
 
-https://user-images.githubusercontent.com/57872327/176015158-6410871c-bb72-46c1-92d1-1e1ff9699af2.mp4
+
+https://user-images.githubusercontent.com/57872327/176147392-cd1d8706-5c08-43b9-a30e-c10f2d89b4da.mp4
+
+
 
 ## Jenkins pipeline Job
 
