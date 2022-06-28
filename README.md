@@ -21,7 +21,7 @@ Go to the project directory
   cd Jenkins-Closing-Task 
 ```
 
-Install dependencies
+Build the project
 
 ```bash
   mvn package  
